@@ -1,0 +1,29 @@
+.canvas{
+    height: 600px;
+    width: 600px;
+    background-color: pink;
+}
+
+.sideBar{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: salmon;
+    left: 100px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+.jumbotron{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.forms{
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.sideBar{
+    font-family: 'Shadows Into Light', cursive;
+
+}
