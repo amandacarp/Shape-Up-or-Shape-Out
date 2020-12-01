@@ -1,4 +1,5 @@
 .canvas{
+    position: relative;
     height: 600px;
     width: 600px;
     background-color: pink;
@@ -26,4 +27,9 @@
 .sideBar{
     font-family: 'Shadows Into Light', cursive;
 
+}
+
+.shape{
+    position: absolute;
+    background-color: red;
 }
