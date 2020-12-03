@@ -27,32 +27,32 @@
             <div class="col-12 shadow-lg p-3 mb-5 bg-white rounded mt-4 d-flex justify-content-around container forms">
                 <form class="form-inline justify-content-center">
                     <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" placeholder="height px">
-                        <input class="form-control" placeholder="width px">
+                        <input class="form-control" placeholder="height px" id="rectangleHeight">
+                        <input class="form-control" placeholder="width px" id="rectangleWidth">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2 btn-info">Add Rectangle</button>
+                    <button id="rectangleBtn" type="submit" class="btn btn-primary mb-2 btn-info">Add Rectangle</button>
                 </form>
 
                 <form class="form-inline justify-content-center">
                     <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" placeholder="side length">
+                        <input class="form-control" placeholder="side length" id="squareWidth">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2 btn-info">Add Square</button>
+                    <button type="submit" id="squareBtn" class="btn btn-primary mb-2 btn-info">Add Square</button>
                 </form>
 
 
                 <form class="form-inline justify-content-center">
                     <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" placeholder="radius px">
+                        <input class="form-control" placeholder="radius px" id="circleRadius">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2 btn-info">Add Circle</button>
+                    <button type="submit" id="circleBtn" class="btn btn-primary mb-2 btn-info">Add Circle</button>
                 </form>
 
                 <form class="form-inline justify-content-center">
                     <div class="form-group mx-sm-3 mb-2">
-                        <input class="form-control" placeholder="height px">
+                        <input class="form-control" placeholder="height px" id="triangleHeight">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2 btn-info">Add Triangle</button>
+                    <button type="submit" id="triangleBtn" class="btn btn-primary mb-2 btn-info">Add Triangle</button>
                 </form>
             </div>
         </div>
@@ -70,46 +70,46 @@
 
         <div class="input-group mb-3 mt-4">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Shape Name</span>
+              <span class="input-group-text" id="basic-addon1" >Shape Name</span>
             </div>
-            <input class="form-control" placeholder="">
+            <input class="form-control" placeholder="" id="shapeName">
           </div>
 
           <div class="input-group mb-3 mt-4">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Width</span>
+              <span class="input-group-text" id="basic-addon1"  >Width</span>
             </div>
-            <input class="form-control" placeholder="">
+            <input class="form-control" placeholder="" id="shapeWidth">
           </div>
 
           <div class="input-group mb-3 mt-4">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Height</span>
+              <span class="input-group-text" id="basic-addon1" >Height</span>
             </div>
-            <input class="form-control" placeholder="">
-          </div>
-
-
-          <div class="input-group mb-3 mt-4">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Radius</span>
-            </div>
-            <input class="form-control" placeholder="">
-          </div>
-
-          <div class="input-group mb-3 mt-4">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Area</span>
-            </div>
-            <input class="form-control" placeholder="">
+            <input class="form-control" placeholder="" id="shapeHeight"> 
           </div>
 
 
           <div class="input-group mb-3 mt-4">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">Perimeter</span>
+              <span class="input-group-text" id="basic-addon1" >Radius</span>
             </div>
-            <input class="form-control" placeholder="">
+            <input class="form-control" placeholder="" id="shapeRadius">
+          </div>
+
+          <div class="input-group mb-3 mt-4">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1" >Area</span>
+            </div>
+            <input class="form-control"  id="shapeArea" placeholder="">
+          </div>
+
+
+          <div class="input-group mb-3 mt-4">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1" >Perimeter</span>
+            </div>
+            <input class="form-control" id="shapePerimeter" placeholder="">
           </div>
 
     </div>
